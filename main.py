@@ -9,9 +9,9 @@ from flask import Flask, request, jsonify
 import logging
 import sys
 # ╔══════════════════════════════════════════════════════════════════╗
-# ║  CREATOR: TARIKUL ISLAM
-# ║  TELEGRAN: https://t.me/paglu_dev
-# ║  PERSONAL TELEGRAM: https://t.me/itzpaglu
+# ║  CREATOR: 9XED
+# ║  TELEGRAN: https://t.me/Creator_9XED
+# ║  PERSONAL TELEGRAM: https://t.me/Creator_9XED
 # ╚══════════════════════════════════════════════════════════════════╝
 
 # Configure logging
@@ -28,10 +28,10 @@ if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
-REQUIRED_CHANNELS = ["@your channel username"]
-GROUP_JOIN_LINK = "https://t.me/your_group_link"
+REQUIRED_CHANNELS = ["https://t.me/Creator_9XED"]
+GROUP_JOIN_LINK = "https://www.youtube.com/@Creator.9XED"
 OWNER_ID = your tg user id (integer)    #Example: 6282811167
-OWNER_USERNAME = "@your username"
+OWNER_USERNAME = "https://www.youtube.com/@Creator.9XED"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 like_tracker = {}   # in-memory cache
